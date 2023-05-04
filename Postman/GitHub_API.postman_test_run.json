@@ -1,7 +1,7 @@
 {
-	"id": "714df6f0-c9fe-419f-afcf-f673be0f13f8",
+	"id": "e2ab9072-5860-4afc-bf18-294bb90f70d2",
 	"name": "GitHub_API",
-	"timestamp": "2023-05-04T10:47:07.165Z",
+	"timestamp": "2023-05-04T16:54:38.403Z",
 	"collection_id": "27092738-b8191487-990f-4da7-b21f-8ff8c8d6a12e",
 	"folder_id": 0,
 	"environment_id": "27092738-597ba034-c158-4804-9fe9-a53108ae2467",
@@ -9,14 +9,14 @@
 	"delay": 0,
 	"persist": true,
 	"status": "finished",
-	"startedAt": "2023-05-04T10:46:00.615Z",
+	"startedAt": "2023-05-04T16:53:37.295Z",
 	"totalFail": 0,
 	"results": [
 		{
 			"id": "793632e8-d63c-4d99-9607-e62f54fd0aa0",
 			"name": "1 CREATE A REPOSITORY FOR A AUTHENTICATED USER",
 			"url": "https://api.github.com/user/repos",
-			"time": 1493,
+			"time": 1356,
 			"responseCode": {
 				"code": 201,
 				"name": "Created"
@@ -31,10 +31,10 @@
 				}
 			},
 			"times": [
-				1627,
-				1331,
-				1393,
-				1493
+				1511,
+				1238,
+				1312,
+				1356
 			],
 			"allTests": [
 				{
@@ -55,7 +55,7 @@
 			"id": "bde25486-58df-4888-91c3-5d2b0f1e5478",
 			"name": "2 UPDATE A REPOSITORY",
 			"url": "https://api.github.com/repos/Kaushik368/Tushar_980",
-			"time": 675,
+			"time": 529,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -70,10 +70,10 @@
 				}
 			},
 			"times": [
-				616,
-				564,
-				638,
-				675
+				551,
+				586,
+				1641,
+				529
 			],
 			"allTests": [
 				{
@@ -94,7 +94,7 @@
 			"id": "82940698-ec17-402d-b426-ce422f7c8f5a",
 			"name": "4 GET A REPOSITORY",
 			"url": "https://api.github.com/repos/Kaushik368/sangai901",
-			"time": 423,
+			"time": 350,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -109,10 +109,10 @@
 				}
 			},
 			"times": [
-				366,
-				345,
-				444,
-				423
+				375,
+				360,
+				343,
+				350
 			],
 			"allTests": [
 				{
@@ -133,7 +133,7 @@
 			"id": "1b2d5ecf-c64a-4e06-8104-f7c75b6d7cd6",
 			"name": "10 CREATE FILE CONTENT",
 			"url": "https://api.github.com/repos/Kaushik368/sangai901/contents/javaScript.js",
-			"time": 492,
+			"time": 508,
 			"responseCode": {
 				"code": 201,
 				"name": "Created"
@@ -148,10 +148,10 @@
 				}
 			},
 			"times": [
-				468,
-				485,
-				463,
-				492
+				486,
+				504,
+				548,
+				508
 			],
 			"allTests": [
 				{
@@ -172,7 +172,7 @@
 			"id": "574d6bc6-036c-4faa-a139-42cd656f9a06",
 			"name": "5 CREATE A FORK",
 			"url": "https://api.github.com/repos/Kaushik368/sangai901/forks",
-			"time": 1122,
+			"time": 1260,
 			"responseCode": {
 				"code": 202,
 				"name": "Accepted"
@@ -187,10 +187,10 @@
 				}
 			},
 			"times": [
-				1128,
-				1009,
-				1062,
-				1122
+				1345,
+				1121,
+				1078,
+				1260
 			],
 			"allTests": [
 				{
@@ -211,7 +211,7 @@
 			"id": "19e9ad23-000c-4876-a04d-3fd24a3b8d3a",
 			"name": "6 LIST FORKS",
 			"url": "https://api.github.com/repos/Kaushik368/sangai901/forks",
-			"time": 389,
+			"time": 360,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -226,10 +226,10 @@
 				}
 			},
 			"times": [
-				396,
-				386,
-				371,
-				389
+				392,
+				366,
+				377,
+				360
 			],
 			"allTests": [
 				{
@@ -250,7 +250,7 @@
 			"id": "820b5a48-09da-4a04-a392-dd6f0811b092",
 			"name": "7 LIST REPOSITORIES FOR A USER",
 			"url": "https://api.github.com/users/Kaushik368/repos",
-			"time": 435,
+			"time": 478,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -265,10 +265,10 @@
 				}
 			},
 			"times": [
-				426,
-				448,
-				463,
-				435
+				675,
+				465,
+				452,
+				478
 			],
 			"allTests": [
 				{
@@ -289,7 +289,7 @@
 			"id": "fcfbade0-64ee-4ad0-94d5-4cbc133a60c4",
 			"name": "8 LIST REPOSITORY LANGUAGE",
 			"url": "https://api.github.com/repos/Kaushik368/sangai901/languages",
-			"time": 326,
+			"time": 315,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -304,10 +304,10 @@
 				}
 			},
 			"times": [
-				300,
-				336,
-				319,
-				326
+				315,
+				312,
+				321,
+				315
 			],
 			"allTests": [
 				{
@@ -328,7 +328,7 @@
 			"id": "ea3351ac-7f92-409b-a408-1006177d9629",
 			"name": "9 LIST PUBLIC REPOSITORIES",
 			"url": "https://api.github.com/repositories",
-			"time": 1029,
+			"time": 487,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -343,10 +343,10 @@
 				}
 			},
 			"times": [
-				503,
-				441,
-				448,
-				1029
+				457,
+				475,
+				477,
+				487
 			],
 			"allTests": [
 				{
@@ -367,7 +367,7 @@
 			"id": "603fdd14-b84e-40f2-a26a-ba0d5591012c",
 			"name": "12 LIST REPOSITORY TAGS",
 			"url": "https://api.github.com/repos/Kaushik368/sangai901/tags/protection",
-			"time": 318,
+			"time": 351,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -382,10 +382,10 @@
 				}
 			},
 			"times": [
+				323,
 				324,
-				327,
-				335,
-				318
+				374,
+				351
 			],
 			"allTests": [
 				{
@@ -406,7 +406,7 @@
 			"id": "24198573-f7c8-4829-be15-906d71e7adc4",
 			"name": "13 CREATE AN AUTOLINK REFERENCE FOR A REPOSITORY",
 			"url": "https://api.github.com/repos/Kaushik368/sangai901/autolinks",
-			"time": 330,
+			"time": 351,
 			"responseCode": {
 				"code": 201,
 				"name": "Created"
@@ -421,10 +421,10 @@
 				}
 			},
 			"times": [
-				350,
-				348,
-				335,
-				330
+				351,
+				338,
+				333,
+				351
 			],
 			"allTests": [
 				{
@@ -444,8 +444,8 @@
 		{
 			"id": "9bb9facf-28a8-40b3-881a-80447853dd3e",
 			"name": "15 GET AN AUTOLINK REFERENCE FOR A REPOSITORY",
-			"url": "https://api.github.com/repos/Kaushik368/sangai901/autolinks/1648077",
-			"time": 618,
+			"url": "https://api.github.com/repos/Kaushik368/sangai901/autolinks/1649275",
+			"time": 325,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -460,10 +460,10 @@
 				}
 			},
 			"times": [
-				331,
-				329,
-				315,
-				618
+				314,
+				307,
+				310,
+				325
 			],
 			"allTests": [
 				{
@@ -484,7 +484,7 @@
 			"id": "ab684dda-a68a-4412-b2ec-b627b842efcc",
 			"name": "17 GET A REPOSITORY",
 			"url": "https://api.github.com/repos/Kaushik368/sangai901",
-			"time": 343,
+			"time": 356,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -499,10 +499,10 @@
 				}
 			},
 			"times": [
-				326,
 				340,
-				356,
-				343
+				393,
+				330,
+				356
 			],
 			"allTests": [
 				{
@@ -523,7 +523,7 @@
 			"id": "6c347c8f-ba7a-4f9f-bf26-303b5a1ab325",
 			"name": "18 REPLACE ALL REPOSITORY TOPICS",
 			"url": "https://api.github.com/repos/Kaushik368/sangai901/topics",
-			"time": 795,
+			"time": 699,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -538,10 +538,10 @@
 				}
 			},
 			"times": [
-				770,
-				869,
-				793,
-				795
+				784,
+				800,
+				777,
+				699
 			],
 			"allTests": [
 				{
@@ -562,7 +562,7 @@
 			"id": "c1d91559-e8ed-4583-8888-5ad8b82b0011",
 			"name": "14 GET ALL REPOSITORY TOPICS",
 			"url": "https://api.github.com/repos/Kaushik368/sangai901/topics",
-			"time": 392,
+			"time": 365,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -577,10 +577,10 @@
 				}
 			},
 			"times": [
-				389,
-				371,
-				409,
-				392
+				373,
+				372,
+				370,
+				365
 			],
 			"allTests": [
 				{
@@ -601,7 +601,7 @@
 			"id": "1919e393-1273-483e-891f-8009d651bc35",
 			"name": "19 DELETE FORK",
 			"url": "https://api.github.com/repos/Kaushiik-org-project-postman/new_fork456",
-			"time": 528,
+			"time": 534,
 			"responseCode": {
 				"code": 204,
 				"name": "No Content"
@@ -616,10 +616,10 @@
 				}
 			},
 			"times": [
-				630,
-				561,
-				592,
-				528
+				559,
+				559,
+				571,
+				534
 			],
 			"allTests": [
 				{
@@ -639,8 +639,8 @@
 		{
 			"id": "a67d790a-53cb-40db-971b-73085bab0d42",
 			"name": "16 DELETE FROM AN AUTOLINK REFERENCE FOR A REPOSITORY",
-			"url": "https://api.github.com/repos/Kaushik368/sangai901/autolinks/1648077",
-			"time": 323,
+			"url": "https://api.github.com/repos/Kaushik368/sangai901/autolinks/1649275",
+			"time": 324,
 			"responseCode": {
 				"code": 204,
 				"name": "No Content"
@@ -655,10 +655,10 @@
 				}
 			},
 			"times": [
-				343,
-				340,
-				332,
-				323
+				326,
+				327,
+				335,
+				324
 			],
 			"allTests": [
 				{
@@ -679,7 +679,7 @@
 			"id": "81544933-3065-45d9-9955-427a95258523",
 			"name": "11 DELETE A FILE",
 			"url": "https://api.github.com/repos/Kaushik368/sangai901/contents/javaScript.js",
-			"time": 516,
+			"time": 498,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -694,10 +694,10 @@
 				}
 			},
 			"times": [
-				493,
-				486,
-				489,
-				516
+				487,
+				525,
+				491,
+				498
 			],
 			"allTests": [
 				{
@@ -718,7 +718,7 @@
 			"id": "c7646bb7-1eb2-433f-a026-219eb790e7ce",
 			"name": "3 DELETE A REPOSITORY",
 			"url": "https://api.github.com/repos/Kaushik368/sangai901",
-			"time": 518,
+			"time": 561,
 			"responseCode": {
 				"code": 204,
 				"name": "No Content"
@@ -733,10 +733,10 @@
 				}
 			},
 			"times": [
-				582,
-				500,
-				607,
-				518
+				879,
+				525,
+				563,
+				561
 			],
 			"allTests": [
 				{
@@ -755,7 +755,7 @@
 		}
 	],
 	"count": 4,
-	"totalTime": 41413,
+	"totalTime": 41750,
 	"collection": {
 		"requests": [
 			{
