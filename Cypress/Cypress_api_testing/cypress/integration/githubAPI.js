@@ -1,6 +1,6 @@
 ///<reference types="Cypress"/>
 
-const token="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";
+const token="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";
 const baseURL="https://api.github.com";
 const owner="Kaushik368";
 
