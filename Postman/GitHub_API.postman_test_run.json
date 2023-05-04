@@ -1,0 +1,839 @@
+{
+	"id": "714df6f0-c9fe-419f-afcf-f673be0f13f8",
+	"name": "GitHub_API",
+	"timestamp": "2023-05-04T10:47:07.165Z",
+	"collection_id": "27092738-b8191487-990f-4da7-b21f-8ff8c8d6a12e",
+	"folder_id": 0,
+	"environment_id": "27092738-597ba034-c158-4804-9fe9-a53108ae2467",
+	"totalPass": 76,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-05-04T10:46:00.615Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "793632e8-d63c-4d99-9607-e62f54fd0aa0",
+			"name": "1 CREATE A REPOSITORY FOR A AUTHENTICATED USER",
+			"url": "https://api.github.com/user/repos",
+			"time": 1493,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				1627,
+				1331,
+				1393,
+				1493
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "bde25486-58df-4888-91c3-5d2b0f1e5478",
+			"name": "2 UPDATE A REPOSITORY",
+			"url": "https://api.github.com/repos/Kaushik368/Tushar_980",
+			"time": 675,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				616,
+				564,
+				638,
+				675
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "82940698-ec17-402d-b426-ce422f7c8f5a",
+			"name": "4 GET A REPOSITORY",
+			"url": "https://api.github.com/repos/Kaushik368/sangai901",
+			"time": 423,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				366,
+				345,
+				444,
+				423
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "1b2d5ecf-c64a-4e06-8104-f7c75b6d7cd6",
+			"name": "10 CREATE FILE CONTENT",
+			"url": "https://api.github.com/repos/Kaushik368/sangai901/contents/javaScript.js",
+			"time": 492,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				468,
+				485,
+				463,
+				492
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "574d6bc6-036c-4faa-a139-42cd656f9a06",
+			"name": "5 CREATE A FORK",
+			"url": "https://api.github.com/repos/Kaushik368/sangai901/forks",
+			"time": 1122,
+			"responseCode": {
+				"code": 202,
+				"name": "Accepted"
+			},
+			"tests": {
+				"Status code is 202": true
+			},
+			"testPassFailCounts": {
+				"Status code is 202": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				1128,
+				1009,
+				1062,
+				1122
+			],
+			"allTests": [
+				{
+					"Status code is 202": true
+				},
+				{
+					"Status code is 202": true
+				},
+				{
+					"Status code is 202": true
+				},
+				{
+					"Status code is 202": true
+				}
+			]
+		},
+		{
+			"id": "19e9ad23-000c-4876-a04d-3fd24a3b8d3a",
+			"name": "6 LIST FORKS",
+			"url": "https://api.github.com/repos/Kaushik368/sangai901/forks",
+			"time": 389,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				396,
+				386,
+				371,
+				389
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "820b5a48-09da-4a04-a392-dd6f0811b092",
+			"name": "7 LIST REPOSITORIES FOR A USER",
+			"url": "https://api.github.com/users/Kaushik368/repos",
+			"time": 435,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				426,
+				448,
+				463,
+				435
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "fcfbade0-64ee-4ad0-94d5-4cbc133a60c4",
+			"name": "8 LIST REPOSITORY LANGUAGE",
+			"url": "https://api.github.com/repos/Kaushik368/sangai901/languages",
+			"time": 326,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				300,
+				336,
+				319,
+				326
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ea3351ac-7f92-409b-a408-1006177d9629",
+			"name": "9 LIST PUBLIC REPOSITORIES",
+			"url": "https://api.github.com/repositories",
+			"time": 1029,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				503,
+				441,
+				448,
+				1029
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "603fdd14-b84e-40f2-a26a-ba0d5591012c",
+			"name": "12 LIST REPOSITORY TAGS",
+			"url": "https://api.github.com/repos/Kaushik368/sangai901/tags/protection",
+			"time": 318,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				324,
+				327,
+				335,
+				318
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "24198573-f7c8-4829-be15-906d71e7adc4",
+			"name": "13 CREATE AN AUTOLINK REFERENCE FOR A REPOSITORY",
+			"url": "https://api.github.com/repos/Kaushik368/sangai901/autolinks",
+			"time": 330,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				350,
+				348,
+				335,
+				330
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "9bb9facf-28a8-40b3-881a-80447853dd3e",
+			"name": "15 GET AN AUTOLINK REFERENCE FOR A REPOSITORY",
+			"url": "https://api.github.com/repos/Kaushik368/sangai901/autolinks/1648077",
+			"time": 618,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				331,
+				329,
+				315,
+				618
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ab684dda-a68a-4412-b2ec-b627b842efcc",
+			"name": "17 GET A REPOSITORY",
+			"url": "https://api.github.com/repos/Kaushik368/sangai901",
+			"time": 343,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				326,
+				340,
+				356,
+				343
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6c347c8f-ba7a-4f9f-bf26-303b5a1ab325",
+			"name": "18 REPLACE ALL REPOSITORY TOPICS",
+			"url": "https://api.github.com/repos/Kaushik368/sangai901/topics",
+			"time": 795,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				770,
+				869,
+				793,
+				795
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c1d91559-e8ed-4583-8888-5ad8b82b0011",
+			"name": "14 GET ALL REPOSITORY TOPICS",
+			"url": "https://api.github.com/repos/Kaushik368/sangai901/topics",
+			"time": 392,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				389,
+				371,
+				409,
+				392
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "1919e393-1273-483e-891f-8009d651bc35",
+			"name": "19 DELETE FORK",
+			"url": "https://api.github.com/repos/Kaushiik-org-project-postman/new_fork456",
+			"time": 528,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				630,
+				561,
+				592,
+				528
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a67d790a-53cb-40db-971b-73085bab0d42",
+			"name": "16 DELETE FROM AN AUTOLINK REFERENCE FOR A REPOSITORY",
+			"url": "https://api.github.com/repos/Kaushik368/sangai901/autolinks/1648077",
+			"time": 323,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				343,
+				340,
+				332,
+				323
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				}
+			]
+		},
+		{
+			"id": "81544933-3065-45d9-9955-427a95258523",
+			"name": "11 DELETE A FILE",
+			"url": "https://api.github.com/repos/Kaushik368/sangai901/contents/javaScript.js",
+			"time": 516,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				493,
+				486,
+				489,
+				516
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c7646bb7-1eb2-433f-a026-219eb790e7ce",
+			"name": "3 DELETE A REPOSITORY",
+			"url": "https://api.github.com/repos/Kaushik368/sangai901",
+			"time": 518,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				582,
+				500,
+				607,
+				518
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				}
+			]
+		}
+	],
+	"count": 4,
+	"totalTime": 41413,
+	"collection": {
+		"requests": [
+			{
+				"id": "793632e8-d63c-4d99-9607-e62f54fd0aa0",
+				"method": "POST"
+			},
+			{
+				"id": "bde25486-58df-4888-91c3-5d2b0f1e5478",
+				"method": "PATCH"
+			},
+			{
+				"id": "82940698-ec17-402d-b426-ce422f7c8f5a",
+				"method": "GET"
+			},
+			{
+				"id": "1b2d5ecf-c64a-4e06-8104-f7c75b6d7cd6",
+				"method": "PUT"
+			},
+			{
+				"id": "574d6bc6-036c-4faa-a139-42cd656f9a06",
+				"method": "POST"
+			},
+			{
+				"id": "19e9ad23-000c-4876-a04d-3fd24a3b8d3a",
+				"method": "GET"
+			},
+			{
+				"id": "820b5a48-09da-4a04-a392-dd6f0811b092",
+				"method": "GET"
+			},
+			{
+				"id": "fcfbade0-64ee-4ad0-94d5-4cbc133a60c4",
+				"method": "GET"
+			},
+			{
+				"id": "ea3351ac-7f92-409b-a408-1006177d9629",
+				"method": "GET"
+			},
+			{
+				"id": "603fdd14-b84e-40f2-a26a-ba0d5591012c",
+				"method": "GET"
+			},
+			{
+				"id": "24198573-f7c8-4829-be15-906d71e7adc4",
+				"method": "POST"
+			},
+			{
+				"id": "9bb9facf-28a8-40b3-881a-80447853dd3e",
+				"method": "GET"
+			},
+			{
+				"id": "ab684dda-a68a-4412-b2ec-b627b842efcc",
+				"method": "GET"
+			},
+			{
+				"id": "6c347c8f-ba7a-4f9f-bf26-303b5a1ab325",
+				"method": "PUT"
+			},
+			{
+				"id": "c1d91559-e8ed-4583-8888-5ad8b82b0011",
+				"method": "GET"
+			},
+			{
+				"id": "1919e393-1273-483e-891f-8009d651bc35",
+				"method": "DELETE"
+			},
+			{
+				"id": "a67d790a-53cb-40db-971b-73085bab0d42",
+				"method": "DELETE"
+			},
+			{
+				"id": "81544933-3065-45d9-9955-427a95258523",
+				"method": "DELETE"
+			},
+			{
+				"id": "c7646bb7-1eb2-433f-a026-219eb790e7ce",
+				"method": "DELETE"
+			}
+		]
+	}
+}
